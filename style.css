@@ -165,7 +165,9 @@ body {
     padding: 20px;
     height: 5%;
     align-items: center;
-    border: 1px solid black;
+    border: 0.5px solid rgb(61, 60, 60);
+    border-right: none;
+    border-left: none;
 }
 
 .qty-title {
@@ -204,7 +206,6 @@ body {
 
 .add-to-cart {
     width: 100%;
-    border: 1px solid green;
     border-radius: 0px;
     height: 10.5%;
     background-color: rgb(165, 10, 10);
@@ -305,7 +306,6 @@ body {
         padding: 7px;
         height: 5%;
         align-items: center;
-        border: 1px solid black;
 
     }
 
@@ -345,13 +345,51 @@ body {
 
     .add-to-cart {
         width: 100%;
-        border: 1px solid green;
         border-radius: 0px;
         height: 10.5%;
         background-color: rgb(165, 10, 10);
     }
 
   
+}
+
+/* iPhone SE and small phones (max-width: 320px) */
+@media (max-width: 320px) {
+  body {
+    background: #fce4ec;
+  }
+}
+
+/* iPhone 6/7/8/X/11 Pro (375px) */
+@media (min-width: 321px) and (max-width: 376px) {
+
+    .products-container {
+        margin: 12px;
+        gap:5px;
+        align-content: center;
+        padding: 20px;
+        
+    }
+    .products{
+        margin: 0px;
+        margin-bottom: 5px;
+        margin-right: 0px;
+    }
+
+}
+
+/* iPhone 12/13/14/Pro (390px) */
+@media (min-width: 385px) and (max-width: 393px) {
+  body {
+    background: #c8e6c9;
+  }
+}
+
+/* iPhone 14 Pro Max/15 Pro Max (430px) */
+@media (min-width: 415px) and (max-width: 430px) {
+  body {
+    background: #d1c4e9;
+  }
 }
 
 @media  (min-width: 701px) and (max-width: 1000px)  {
