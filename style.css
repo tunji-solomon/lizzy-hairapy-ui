@@ -18,15 +18,14 @@ body {
     width: 100%;
     background-image: url("./images/Happy-woman-holding-out-hair-1296x728-header-1296x728.webp");
     background-repeat: no-repeat;
-    height: 740px;
+    height: 480px;
     background-size: cover;
     background-position: center top;
     padding-top: 180px;
     box-shadow: 0px -1px 0.5px 0.5px rgba(60, 59, 59, 0.7) inset;
     background-color: rgba(0,0,0,0.55);
     background-blend-mode: overlay;
-
-
+    margin-bottom: 0px;
 }
 
 .logo-navbar-container {
@@ -44,10 +43,9 @@ body {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 3.5rem;
-    margin-top: 300px;
+    margin-top: 50px;
 }
 .header_description {
-    margin: 20px 100px;
     margin-bottom: 50px;
     color: white;
 
@@ -90,14 +88,12 @@ body {
 .search-bar {
     width: 100%;
     border: none;
-    bottom: 200px;
     padding:10px;
     border-radius: 10px;
     border-bottom-right-radius: 0px;
     border-top-right-radius: 0px;
-
     box-shadow: 5px 0px 10px 1px;
-    background-color: #f7f7f7;
+    background-color: #f7f7f7f1;
 }
 
 .search-bar:focus {
@@ -109,7 +105,7 @@ body {
     padding: 9px 10px;
     font-size: 1rem;
     border: none;
-    background-color: #f7f7f7;
+    background-color: #f7f7f7f1;
     border-left: 0.5px solid;
     color: #2d2d2d;
     border-bottom-right-radius: 5px;
@@ -126,15 +122,16 @@ body {
 
 .products-display {
     text-align: center;
-    padding-top: 30px;
 }
 
 .all-products-header {
     font-size: 2rem;
+    margin-top: 50px;
 }
 
 .products-container {
     margin: 50px 30px;
+    margin-bottom: 200px;
     padding: 30px;
     padding-left: 0px;
     padding-bottom: 30px;
@@ -341,8 +338,6 @@ body {
         margin-left: 3px;
     }
 
-
-
     .add-to-cart {
         width: 100%;
         border-radius: 0px;
@@ -375,6 +370,46 @@ body {
         margin-bottom: 5px;
         margin-right: 0px;
     }
+
+    .all-products-header {
+        font-size: large;
+    }
+
+    .img-logo {
+
+        width: 3.5rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+
+    .navbar-items {
+        font-size: medium;
+    }
+
+    .header {
+        margin-top: -30px;
+        height: 300px;
+    }
+
+    .header_title {
+        font-size: 1.8rem;
+        margin-top: -50px;
+    }
+
+    .header_description {
+        font-size: small;
+        width: 80%;
+        margin-top: 0px;
+    }
+
+    .all-products-header {
+        margin-top: 20px;
+    }
+
+
+
+
 
 }
 
