@@ -169,11 +169,17 @@ body {
 }
 
 .qty-selected {
-    width: 10%;
+    width: 20%;
+    padding: 0px 2px;
     border:none;
     height: 25px;
     margin: 0px 10px;
     text-align: center;
+    font-size: 0.75rem;
+}
+
+.qty-selected:focus {
+    outline: none;
 }
 
 .button {
