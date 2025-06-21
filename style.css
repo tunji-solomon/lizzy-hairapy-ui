@@ -483,11 +483,11 @@ body {
 
     .hair-price,
     .hair-title {
-        margin: 5px;
+        margin: 6px;
     }
 
     .qty-btn {
-        padding: 13px;
+        padding: 16.25px;
         justify-content: space-between;
         gap: 10px;
     }
