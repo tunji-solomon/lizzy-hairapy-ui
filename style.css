@@ -166,16 +166,16 @@ body {
 
 .qty-title {
     font-weight: bold;
+    font-size: 0.8rem;
 }
 
 .qty-selected {
-    width: 20%;
-    padding: 0px 2px;
     border:none;
     height: 25px;
     margin: 0px 10px;
     text-align: center;
     font-size: 0.75rem;
+    width: 30%;
 }
 
 .qty-selected:focus {
@@ -194,14 +194,14 @@ body {
 .qty-increase-btn {
     border-bottom-left-radius: 0px;
     border-top-left-radius: 0px;
-    width: 23%;
+    width: 20%;
 }
 
 .qyt-decrease-btn{
     border-bottom-right-radius: 0px;
     border-top-right-radius: 0px;
     margin-left: 10px;
-    width: 23%;
+    width: 20%;
 }
 
 
@@ -415,14 +415,13 @@ body {
     }
 
     .qty-title {
-        font-size: small;
+        font-size: 0.7rem;
     }
 
     .qty-increase-btn,
     .qyt-decrease-btn{
         text-align: center;
         margin: 0px;
-        width: 25%;
     }
 
     .qty-selected {
